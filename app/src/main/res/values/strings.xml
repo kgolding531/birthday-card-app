@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Birthday Card</string>
+
+    <string name="name">Name</string>
+    <string name="contentDescription">Name</string>
+    <string name="hintName">Name (John Doe)</string>
+    <string name="textViewName">Enter your name</string>
+
+    <string name="textViewDateOfBirth">Enter your Date of Birth below</string>
+    <string name="textViewDateOfBirthMonth">Month</string>
+    <string name="textViewDateOfBirthDay">Day</string>
+    <string name="textViewDateOfBirthYear">Year</string>
+
+    <string name="submitButton">Submit</string>
+    <string name="hintDay">DD (30)</string>
+    <string name="hintMonth">MM (04)</string>
+    <string name="hintYear">YYYY (2004)</string>
+
+    <!-- SECOND ACTIVITY -->
+    <string name="textViewText">
+Happy birthday
+<b>Kevaughn!</b>
+
+Your age is: 12
+Your birthstone is: Ameztheyr
+Your Chinese Zodiac sign is: Donkey
+    </string>
+
+</resources>

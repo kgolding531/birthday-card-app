@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="618dp"
+        android:text="@string/textViewName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="555dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintName"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/dateOfBirthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="489dp"
+        android:text="@string/textViewDateOfBirth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:autofillHints=""
+        android:id="@+id/editTextDay"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="407dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="276dp"
+        android:ems="10"
+        android:hint="@string/hintDay"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateOfBirthTextViewMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="435dp"
+        android:text="@string/textViewDateOfBirthMonth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:autofillHints=""
+        android:id="@+id/editTextMonth"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="377dp"
+        android:ems="10"
+        android:hint="@string/hintMonth"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:autofillHints=""
+        android:id="@+id/editTextYear"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="172dp"
+        android:ems="10"
+        android:hint="@string/hintYear"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateOfBirthTextViewDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="337dp"
+        android:text="@string/textViewDateOfBirthDay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateOfBirthTextViewYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="230dp"
+        android:text="@string/textViewDateOfBirthYear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="67dp"
+        android:text="@string/submitButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
